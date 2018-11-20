@@ -164,13 +164,13 @@ footer {
     margin-top: 20px; }
     footer .footerIcons i {
       background: white;
-      font-size: 35px;
+      font-size: 25px;
       border-radius: 100%;
       margin: 0 10px; }
       footer .footerIcons i:nth-child(1) {
-        padding: 8px 16.485px; }
+        padding: 8px 14.064px;; }
       footer .footerIcons i:nth-child(2) {
-        padding: 8px 10.2px; }
+        padding: 8px 9.57px; }
   footer ul {
     margin: 30px 0;
     float: left;
@@ -309,7 +309,7 @@ section {
       position: absolute;
       bottom: 0;
       left: 0;
-      background: rgba(105, 105, 105, 0.55);
+      background: rgba(228, 45, 16, 0.51);
       color: white;
       padding: 10px 0 0 0;
       width: 100%; }
@@ -424,3 +424,81 @@ section {
 .testimonial .owl-theme .owl-controls .owl-page.active span,
 .testimonial .owl-theme .owl-controls.clickable .owl-page:hover span {
   background-color: #FF6F59 !important; }
+
+
+
+  /* Servicios */
+  /**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #e42d10 !important;
+	font-weight:700;
+  text-decoration:none;
+  font-size: 16px;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #e42d10;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f015";
+}
+#what-we-do .card .block-2:before{
+    content: "\f1ad";
+}
+#what-we-do .card .block-3:before{
+    content: "\f02d";
+}
+#what-we-do .card .block-4:before{
+    content: "\f030";
+}
+#what-we-do .card .block-5:before{
+    content: "\f069";
+}
+#what-we-do .card .block-6:before{
+    content: "\f0fe";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}

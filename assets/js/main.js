@@ -77,9 +77,9 @@ $( document ).ready(function() {
 
     singleItem:false,
 
-    navigationText:["",""],
+    navigationText:["<",">"],
 
-    autoPlay:true
+    autoPlay:true,
 
   });
 });
